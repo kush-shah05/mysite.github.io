@@ -1,0 +1,69 @@
+.body{
+    margin: 0px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.button button{
+    background-color: burlywood;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.gradient{
+    min-height: 500px;
+    background-image:linear-gradient(orange,white,green) ;
+}
+.transition{
+    background: none;
+    transition: background 5s;
+}
+.transition:hover{
+    background: blue;
+    color: red;
+}
+@media(min-width:1440px) and (max-width:2560px){
+    .button .xl{
+        font-size: 36px;
+        padding: 15px 45px;
+    }
+}
+@media(min-width:1024px) and (max-width:1439px){
+    .button .lg{
+        font-size: 24px;
+        padding: 13px 28px;
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .button .md{
+        font-size: 18px;
+        padding: 11px 25px;
+    }
+}
+@media(min-width:425px) and (max-width:767px){
+    .button .sm{
+        font-size: 12px;
+        padding: 9px 15px;
+    }
+}
+@media(min-width:320px) and (max-width:424px){
+    .button .xs{
+        font-size: 9px;
+        padding: 7px 12px;
+    }
+}
+.background{
+    width: 50%;
+    height: 300px;
+    background-image: url(webdesigbanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+
+
+
+
+
